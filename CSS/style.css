@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.circulo{
+  position: absolute;
+  margin-left: 650px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  transition: 0.3s ease;
+}
+.circulo:hover{
+transform: rotateY(180deg);
+}
+h1 {
+  color: #ffffff;
+}
+.section {
+  margin-bottom: 20px;
+}
+.section h2 {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.section p {
+  margin: 0;
+}
+.pag{
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 100%;
+  padding: 45px;
+  background-color:  rgb(190, 136, 240);
+}
+.form1 h2 {
+  color: #ffffff;
+  text-align: center;
+}
+.form{
+  background-color: rgba(255, 255, 255, 0.623);
+  padding: 50px;
+  width: 550px;
+  margin: auto;
+  color:  rgb(190, 136, 240);
+ 
+}
+.form label{
+  font-weight: 700;
+}
+.form input{
+
+  border: 2px solid rgba(0, 0, 0, 0.8); 
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 12pt;
+  color: black;
+  box-sizing: border-box;
+  outline: none;
+}
+input:hover{
+  background-color: #023d8a0e;
+  border: 2px solid  rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 0;
+  }
+
+  .circulo {
+    margin-left: 0;
+  }
+
+  .pag {
+    width: auto;
+    padding: 15px;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
